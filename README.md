@@ -2,89 +2,66 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=header&text=Himanshu&fontSize=70&animation=fadeIn&fontAlignY=35)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Google+Sans&weight=600&size=32&duration=3000&pause=1000&color=3B88C3&center=true&vCenter=true&random=false&width=600&lines=AI+Automation+Specialist;Building+Meaningful+AI+Solutions;Technical+Training+%26+Agentic+AI+Expert)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Google+Sans&weight=600&size=32&duration=3000&pause=1000&color=3B88C3&center=true&vCenter=true&random=false&width=600&lines=Full+Stack+AI+Developer;Building+Tools+That+Actually+Work;Python+%7C+FastAPI+%7C+Next.js)](https://git.io/typing-svg)
 
 </div>
 
 ---
 
-## 🎯 **Mission**
-
-> Building meaningful AI that impacts real users.
-
----
-
-## 🚀 **Professional Focus**
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│  🤖 AI Automation Specialist                               │
-│  ☁️  Cloud & Web Solutions Provider                        │
-│  🏠 Remote Workflow Optimization Expert                    │
-│  👨‍💼 Project Leader & Technical Innovator                   │
-└─────────────────────────────────────────────────────────────┘
-```
-
----
-
-## 💻 **Tech Stack & Expertise**
+## 💻 Tech Stack
 
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logo=chainlink&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![LiveKit](https://img.shields.io/badge/LiveKit-FF5A5F?style=for-the-badge&logo=livekit&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![ML](https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Make.com](https://img.shields.io/badge/Make.com-6366F1?style=for-the-badge&logo=integromat&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
 
 </div>
 
-### 🎯 **Core Competencies**
+---
 
-```python
-class HimanshuSkills:
-    def __init__(self):
-        self.languages = ['Python', 'JavaScript', 'SQL', 'Bash']
-        self.ai_frameworks = ['LangChain', 'OpenAI API', 'Agentic AI Systems']
-        self.cloud_platforms = ['AWS', 'Google Cloud', 'Azure']
-        self.automation_tools = ['Make.com', 'Zapier', 'Custom Integrations']
-        self.databases = ['PostgreSQL', 'MongoDB', 'Redis']
-        self.specializations = [
-            'AI Agent Development',
-            'Workflow Automation',
-            'API Integration',
-            'Technical Training'
-        ]
+## 🚀 Projects
+
+### [OmniDev](https://github.com/himanshu748/omnidev)
+> **All-in-One AI Developer Platform** — FastAPI + Next.js 16
+
+| Feature | Description |
+|---------|-------------|
+| 🤖 **DevOps Agent** | Manage AWS with natural language — "List my EC2 instances", "Launch a t2.micro" |
+| 🕷️ **Web Scraper** | Playwright with stealth mode & Cloudflare bypass |
+| 🖼️ **Vision Lab** | GPT-5 Mini vision for image analysis & OCR |
+| 📦 **Cloud Storage** | S3 file manager with upload/download |
+| 📍 **Location Services** | IP geolocation, GPS, reverse geocoding |
+
+```
+Python • FastAPI • Next.js 16 • OpenAI GPT-5 Mini • Playwright • AWS boto3 • Framer Motion
 ```
 
 ---
 
-## 🌟 **Featured Projects**
+### [The Gauntlet — Voice Agent](https://github.com/himanshu748/ten-days-of-voice-agents-2025)
+> **AI-Powered Startup Validator Game** — Real-time Voice AI
 
-### 🎓 **Technical Training Project**
-Comprehensive training programs focused on AI implementation and automation workflows for technical teams.
-
-### 🤖 **Agentic AI Solutions**
-Cutting-edge autonomous AI systems that handle complex decision-making and workflow orchestration.
-
-### 🔗 **Make.com Integration Suite**
-Custom automation solutions connecting diverse business tools and platforms for seamless workflow optimization.
-
----
-
-## 🤝 **Ideal Collaborators**
+| Feature | Description |
+|---------|-------------|
+| 🎙️ **Voice Interaction** | LiveKit Agents with background noise cancellation |
+| 🗣️ **Ultra-Fast TTS** | Murf Falcon for natural speech synthesis |
+| 🧠 **Gemini 2.5 Flash** | Powers the brutal VC persona that grills your pitches |
+| 👂 **Deepgram Nova 3** | Real-time speech-to-text |
 
 ```
-🚀 Startups seeking AI-driven growth
-👥 Founders building scalable solutions  
-🏢 SMBs optimizing operational efficiency
+Python • LiveKit Agents • Murf Falcon TTS • Deepgram STT • Google Gemini • Next.js
 ```
 
 ---
 
-## 📈 **GitHub Stats**
+## 📈 GitHub Stats
 
 <div align="center">
 
@@ -96,7 +73,7 @@ Custom automation solutions connecting diverse business tools and platforms for 
 
 ---
 
-## 📫 **Connect With Me**
+## 📫 Connect
 
 <div align="center">
 
@@ -108,8 +85,6 @@ Custom automation solutions connecting diverse business tools and platforms for 
 ---
 
 <div align="center">
-
-*"Transforming complex challenges into elegant AI solutions, one project at a time."*
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer)
 
