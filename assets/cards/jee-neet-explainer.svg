@@ -1,0 +1,32 @@
+<svg width="860" height="380" viewBox="0 0 860 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="20" y1="20" x2="840" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171225"/>
+      <stop offset="1" stop-color="#4A1D36"/>
+    </linearGradient>
+    <linearGradient id="pill" x1="530" y1="96" x2="790" y2="270" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EC4899"/>
+      <stop offset="1" stop-color="#F43F5E"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="860" height="380" rx="24" fill="url(#bg)"/>
+  <rect x="36" y="36" width="788" height="308" rx="20" fill="#1D1326" stroke="#7E22CE"/>
+  <text x="64" y="98" fill="#F5E8FF" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700">AI Concept Explainer</text>
+  <text x="64" y="134" fill="#F9A8D4" font-family="Arial, Helvetica, sans-serif" font-size="19">JEE and NEET preparation assistant</text>
+
+  <rect x="64" y="164" width="430" height="34" rx="8" fill="#37203E"/>
+  <text x="78" y="187" fill="#FCE7F3" font-family="Arial, Helvetica, sans-serif" font-size="15">React + TypeScript + Supabase Edge Functions</text>
+
+  <rect x="64" y="216" width="494" height="30" rx="15" fill="#3F2146"/>
+  <text x="82" y="236" fill="#FBCFE8" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">Step-by-step explanations + worked examples + MCQs</text>
+
+  <rect x="64" y="258" width="494" height="30" rx="15" fill="#3F2146"/>
+  <text x="82" y="278" fill="#FBCFE8" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">Math rendering with KaTeX and exam-style content</text>
+
+  <rect x="550" y="88" width="238" height="210" rx="18" fill="url(#pill)" opacity="0.22"/>
+  <text x="574" y="134" fill="#F5E8FF" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Status</text>
+  <text x="574" y="162" fill="#FCE7F3" font-family="Arial, Helvetica, sans-serif" font-size="14">Updated: 2026-01-18</text>
+  <text x="574" y="192" fill="#FCE7F3" font-family="Arial, Helvetica, sans-serif" font-size="14">Language: TypeScript</text>
+  <text x="574" y="222" fill="#FCE7F3" font-family="Arial, Helvetica, sans-serif" font-size="14">Repo: himanshu748/eklavyasubmission</text>
+  <text x="574" y="258" fill="#FBCFE8" font-family="Arial, Helvetica, sans-serif" font-size="13">Education-focused AI UX</text>
+</svg>

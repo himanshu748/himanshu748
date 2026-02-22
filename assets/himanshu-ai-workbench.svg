@@ -1,0 +1,58 @@
+<svg width="1200" height="620" viewBox="0 0 1200 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="96" y1="64" x2="1120" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#132845"/>
+    </linearGradient>
+    <linearGradient id="card" x1="700" y1="120" x2="1060" y2="490" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D4ED8"/>
+      <stop offset="1" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="170" y1="120" x2="470" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+    <filter id="blur1" x="0" y="0" width="1200" height="620" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="620" rx="28" fill="url(#bg)"/>
+
+  <g opacity="0.35" filter="url(#blur1)">
+    <circle cx="180" cy="90" r="90" fill="#22D3EE"/>
+    <circle cx="1060" cy="510" r="110" fill="#2563EB"/>
+    <circle cx="930" cy="120" r="70" fill="#38BDF8"/>
+  </g>
+
+  <rect x="60" y="60" width="520" height="500" rx="24" fill="#0F172A" stroke="#1E293B" stroke-width="2"/>
+  <rect x="94" y="96" width="452" height="164" rx="18" fill="url(#accent)" opacity="0.22"/>
+  <rect x="94" y="292" width="452" height="44" rx="10" fill="#111D31"/>
+  <rect x="94" y="352" width="350" height="20" rx="10" fill="#1E293B"/>
+  <rect x="94" y="386" width="290" height="20" rx="10" fill="#1E293B"/>
+  <rect x="94" y="420" width="410" height="20" rx="10" fill="#1E293B"/>
+
+  <text x="94" y="144" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700">Himanshu Jha</text>
+  <text x="94" y="186" fill="#93C5FD" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="600">Full Stack AI Developer</text>
+  <text x="94" y="226" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="18">FastAPI | Next.js | Agents | Voice AI</text>
+  <text x="94" y="322" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600">Building tools people actually use.</text>
+
+  <rect x="642" y="76" width="498" height="468" rx="24" fill="#0B162A" stroke="#1E3A8A" stroke-width="2"/>
+  <rect x="678" y="114" width="426" height="164" rx="18" fill="url(#card)" opacity="0.28"/>
+  <rect x="678" y="304" width="426" height="96" rx="16" fill="#101D34"/>
+  <rect x="678" y="416" width="204" height="84" rx="16" fill="#101D34"/>
+  <rect x="900" y="416" width="204" height="84" rx="16" fill="#101D34"/>
+
+  <text x="700" y="162" fill="#F1F5F9" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Featured Work</text>
+  <text x="700" y="198" fill="#BFDBFE" font-family="Arial, Helvetica, sans-serif" font-size="18">OmniDev - AI Developer Platform</text>
+  <text x="700" y="228" fill="#BFDBFE" font-family="Arial, Helvetica, sans-serif" font-size="18">The Gauntlet - Real-Time Voice Agent</text>
+
+  <text x="700" y="342" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="17">Practical systems for coding, cloud automation,</text>
+  <text x="700" y="368" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="17">and real-time conversational experiences.</text>
+
+  <text x="706" y="454" fill="#7DD3FC" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">Core Stack</text>
+  <text x="706" y="478" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="14">Python, TypeScript, FastAPI</text>
+
+  <text x="926" y="454" fill="#7DD3FC" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">Tooling</text>
+  <text x="926" y="478" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="14">OpenAI, LiveKit, Playwright</text>
+</svg>

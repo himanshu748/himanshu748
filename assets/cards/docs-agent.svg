@@ -1,0 +1,32 @@
+<svg width="860" height="380" viewBox="0 0 860 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="20" y1="20" x2="840" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#312E81"/>
+    </linearGradient>
+    <linearGradient id="pill" x1="530" y1="96" x2="790" y2="270" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="860" height="380" rx="24" fill="url(#bg)"/>
+  <rect x="36" y="36" width="788" height="308" rx="20" fill="#121D38" stroke="#3730A3"/>
+  <text x="64" y="98" fill="#E0E7FF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Kubeflow Docs Agent</text>
+  <text x="64" y="134" fill="#A5B4FC" font-family="Arial, Helvetica, sans-serif" font-size="19">RAG assistant for Kubeflow documentation</text>
+
+  <rect x="64" y="164" width="430" height="34" rx="8" fill="#1A2A52"/>
+  <text x="78" y="187" fill="#DBEAFE" font-family="Arial, Helvetica, sans-serif" font-size="15">Milvus + KServe + Pipelines + streaming APIs</text>
+
+  <rect x="64" y="216" width="494" height="30" rx="15" fill="#1E3260"/>
+  <text x="82" y="236" fill="#C7D2FE" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">Semantic search and contextual LLM answers</text>
+
+  <rect x="64" y="258" width="494" height="30" rx="15" fill="#1E3260"/>
+  <text x="82" y="278" fill="#C7D2FE" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">Represents active upstream fork collaboration</text>
+
+  <rect x="550" y="88" width="238" height="210" rx="18" fill="url(#pill)" opacity="0.24"/>
+  <text x="574" y="134" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Status</text>
+  <text x="574" y="162" fill="#E0E7FF" font-family="Arial, Helvetica, sans-serif" font-size="14">Updated: 2026-02-22</text>
+  <text x="574" y="192" fill="#E0E7FF" font-family="Arial, Helvetica, sans-serif" font-size="14">Language: mixed</text>
+  <text x="574" y="222" fill="#E0E7FF" font-family="Arial, Helvetica, sans-serif" font-size="14">Repo: himanshu748/docs-agent</text>
+  <text x="574" y="258" fill="#C7D2FE" font-family="Arial, Helvetica, sans-serif" font-size="13">Open-source infrastructure and AI</text>
+</svg>
