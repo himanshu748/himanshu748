@@ -2,7 +2,7 @@
   <img src="./assets/himanshu-ai-workbench.svg" alt="Himanshu AI Workbench" width="100%" />
 </p>
 
-<h1 align="center">Himanshu Jha</h1>
+<h1 align="center">Himanshu Kumar</h1>
 
 <p align="center">
   <strong>Full Stack AI Developer</strong><br />
@@ -179,8 +179,11 @@ sequenceDiagram
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=himanshu748&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=himanshu748&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=himanshu748&theme=tokyonight" alt="GitHub Stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=himanshu748&theme=tokyonight" alt="Top Languages" />
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=himanshu748&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
 ---
