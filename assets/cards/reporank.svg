@@ -1,0 +1,28 @@
+<svg width="860" height="380" viewBox="0 0 860 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="20" y1="20" x2="840" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101820"/>
+      <stop offset="1" stop-color="#214326"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="520" y1="84" x2="790" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7EFE6D"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="380" rx="24" fill="url(#bg)"/>
+  <rect x="36" y="36" width="788" height="308" rx="20" fill="#0F1E18" stroke="#2F6B3A"/>
+  <text x="64" y="98" fill="#EAFBE9" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700">RepoRank</text>
+  <text x="64" y="134" fill="#BBF7D0" font-family="Arial, Helvetica, sans-serif" font-size="19">Open Source Impact &amp; Funding Readiness Agent</text>
+  <rect x="64" y="164" width="470" height="34" rx="8" fill="#173225"/>
+  <text x="78" y="187" fill="#DCFCE7" font-family="Arial, Helvetica, sans-serif" font-size="15">Coral SQL + FastAPI + Qwen 2.5 72B + Hugging Face</text>
+  <rect x="64" y="216" width="494" height="30" rx="15" fill="#1A3C29"/>
+  <text x="82" y="236" fill="#BBF7D0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">Cross-source joins across GitHub, PyPI/npm, HN, Open Collective</text>
+  <rect x="64" y="258" width="494" height="30" rx="15" fill="#1A3C29"/>
+  <text x="82" y="278" fill="#BBF7D0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">Impact report, radar chart, pitch, and grant matches</text>
+  <rect x="570" y="90" width="218" height="200" rx="18" fill="url(#accent)" opacity="0.22"/>
+  <text x="594" y="136" fill="#EAFBE9" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Current</text>
+  <text x="594" y="166" fill="#DCFCE7" font-family="Arial, Helvetica, sans-serif" font-size="14">Updated: 2026-05-29</text>
+  <text x="594" y="196" fill="#DCFCE7" font-family="Arial, Helvetica, sans-serif" font-size="14">Language: HTML</text>
+  <text x="594" y="226" fill="#DCFCE7" font-family="Arial, Helvetica, sans-serif" font-size="14">Repo: himanshu748/reporank</text>
+  <text x="594" y="260" fill="#BBF7D0" font-family="Arial, Helvetica, sans-serif" font-size="13">AI + OSS analytics</text>
+</svg>

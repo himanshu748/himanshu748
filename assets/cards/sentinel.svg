@@ -1,0 +1,28 @@
+<svg width="860" height="380" viewBox="0 0 860 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="20" y1="20" x2="840" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="1" stop-color="#4C1D95"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="520" y1="84" x2="790" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="380" rx="24" fill="url(#bg)"/>
+  <rect x="36" y="36" width="788" height="308" rx="20" fill="#15172A" stroke="#6D28D9"/>
+  <text x="64" y="98" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700">Sentinel</text>
+  <text x="64" y="134" fill="#C4B5FD" font-family="Arial, Helvetica, sans-serif" font-size="19">Personal Crypto Research Agent</text>
+  <rect x="64" y="164" width="470" height="34" rx="8" fill="#211B3D"/>
+  <text x="78" y="187" fill="#EDE9FE" font-family="Arial, Helvetica, sans-serif" font-size="15">ElizaOS + Nosana GPU + CoinGecko + DeFiLlama</text>
+  <rect x="64" y="216" width="494" height="30" rx="15" fill="#2D2553"/>
+  <text x="82" y="236" fill="#DDD6FE" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">Market briefings, token analysis, news, and DeFi research</text>
+  <rect x="64" y="258" width="494" height="30" rx="15" fill="#2D2553"/>
+  <text x="82" y="278" fill="#DDD6FE" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">60+ tests with caching, evaluators, and graceful degradation</text>
+  <rect x="570" y="90" width="218" height="200" rx="18" fill="url(#accent)" opacity="0.24"/>
+  <text x="594" y="136" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Current</text>
+  <text x="594" y="166" fill="#EDE9FE" font-family="Arial, Helvetica, sans-serif" font-size="14">Updated: 2026-04-13</text>
+  <text x="594" y="196" fill="#EDE9FE" font-family="Arial, Helvetica, sans-serif" font-size="14">Language: TypeScript</text>
+  <text x="594" y="226" fill="#EDE9FE" font-family="Arial, Helvetica, sans-serif" font-size="14">Repo: sentinel-nosana-agent</text>
+  <text x="594" y="260" fill="#DDD6FE" font-family="Arial, Helvetica, sans-serif" font-size="13">Decentralized AI research</text>
+</svg>

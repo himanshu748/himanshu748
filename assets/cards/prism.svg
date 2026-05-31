@@ -1,0 +1,28 @@
+<svg width="860" height="380" viewBox="0 0 860 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="20" y1="20" x2="840" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171717"/>
+      <stop offset="1" stop-color="#7F1D1D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="520" y1="84" x2="790" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EF4444"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="380" rx="24" fill="url(#bg)"/>
+  <rect x="36" y="36" width="788" height="308" rx="20" fill="#21181A" stroke="#B45309"/>
+  <text x="64" y="98" fill="#FFF7ED" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700">Prism</text>
+  <text x="64" y="134" fill="#FED7AA" font-family="Arial, Helvetica, sans-serif" font-size="19">Multi-Agent Decision Intelligence</text>
+  <rect x="64" y="164" width="470" height="34" rx="8" fill="#32231C"/>
+  <text x="78" y="187" fill="#FFEDD5" font-family="Arial, Helvetica, sans-serif" font-size="15">Mistral AI + Express + SSE + D3.js + function calling</text>
+  <rect x="64" y="216" width="494" height="30" rx="15" fill="#3D291D"/>
+  <text x="82" y="236" fill="#FED7AA" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">Researcher, Advocate, Critic, Debate, and Synthesizer agents</text>
+  <rect x="64" y="258" width="494" height="30" rx="15" fill="#3D291D"/>
+  <text x="82" y="278" fill="#FED7AA" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">Live debate UI with confidence gauge and argument graph</text>
+  <rect x="570" y="90" width="218" height="200" rx="18" fill="url(#accent)" opacity="0.22"/>
+  <text x="594" y="136" fill="#FFF7ED" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Current</text>
+  <text x="594" y="166" fill="#FFEDD5" font-family="Arial, Helvetica, sans-serif" font-size="14">Updated: 2026-02-28</text>
+  <text x="594" y="196" fill="#FFEDD5" font-family="Arial, Helvetica, sans-serif" font-size="14">Language: JavaScript</text>
+  <text x="594" y="226" fill="#FFEDD5" font-family="Arial, Helvetica, sans-serif" font-size="14">Repo: prism-mistral</text>
+  <text x="594" y="260" fill="#FED7AA" font-family="Arial, Helvetica, sans-serif" font-size="13">Agent debate system</text>
+</svg>

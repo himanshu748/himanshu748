@@ -1,0 +1,28 @@
+<svg width="860" height="380" viewBox="0 0 860 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="20" y1="20" x2="840" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#151B2E"/>
+      <stop offset="1" stop-color="#543B21"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="520" y1="84" x2="790" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="380" rx="24" fill="url(#bg)"/>
+  <rect x="36" y="36" width="788" height="308" rx="20" fill="#141A2A" stroke="#475569"/>
+  <text x="64" y="98" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700">VedaAI</text>
+  <text x="64" y="134" fill="#FCD34D" font-family="Arial, Helvetica, sans-serif" font-size="19">AI Assessment Creator for Teachers</text>
+  <rect x="64" y="164" width="470" height="34" rx="8" fill="#20283B"/>
+  <text x="78" y="187" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="15">Next.js 15 + Express + MongoDB + Redis + BullMQ</text>
+  <rect x="64" y="216" width="494" height="30" rx="15" fill="#283247"/>
+  <text x="82" y="236" fill="#BAE6FD" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">Question papers, answer keys, PDF export, live worker status</text>
+  <rect x="64" y="258" width="494" height="30" rx="15" fill="#283247"/>
+  <text x="82" y="278" fill="#BAE6FD" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">Offline fallback generation for sandbox and network resilience</text>
+  <rect x="570" y="90" width="218" height="200" rx="18" fill="url(#accent)" opacity="0.24"/>
+  <text x="594" y="136" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Current</text>
+  <text x="594" y="166" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="14">Updated: 2026-05-24</text>
+  <text x="594" y="196" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="14">Language: TypeScript</text>
+  <text x="594" y="226" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="14">Repo: vedaai-assessment</text>
+  <text x="594" y="260" fill="#BAE6FD" font-family="Arial, Helvetica, sans-serif" font-size="13">Education workflow app</text>
+</svg>
