@@ -39,11 +39,11 @@ Selection logic: recency of updates, technical depth, and direct end-user useful
 
 | Rank | Project | Type | Updated | Why it stands out |
 | --- | --- | --- | --- | --- |
-| 1 | [omnidev](https://github.com/himanshu748/omnidev) | Original | 2026-06-03 | Local-first AI developer platform with configurable APIs, Gemini code generation, browser-tested frontend, and FastAPI services |
+| 1 | [omnidev](https://github.com/himanshu748/omnidev) | Original | 2026-06-04 | Local-first AI developer platform with configurable APIs, Gemini code generation, browser-tested frontend, and FastAPI services |
 | 2 | [sentinel-nosana-agent](https://github.com/himanshu748/sentinel-nosana-agent) | Original | 2026-06-04 | Crypto research agent on ElizaOS and Nosana with market, DeFi, RSS, Solana, provider validation, and 70-test coverage |
 | 3 | [python-automation-training-toolkit](https://github.com/himanshu748/python-automation-training-toolkit) | Original | 2026-06-04 | Browser workspace and CLI for safe automation training across Hugging Face, AWS, S3, location, email, gestures, and bounded local image paths |
 | 4 | [prism-mistral-hackathon](https://github.com/himanshu748/prism-mistral-hackathon) | Original | 2026-06-04 | Multi-agent decision intelligence with Mistral tools, live debate, SSE streaming, D3 graphs, and hardened tool-argument parsing |
-| 5 | [ipl-evolution-data-analysis](https://github.com/himanshu748/ipl-evolution-data-analysis) | Original | 2026-06-04 | IPL analytics across 278K+ deliveries, 1,169 matches, and 17 seasons with tightened data-backed claims |
+| 5 | [ipl-evolution-data-analysis](https://github.com/himanshu748/ipl-evolution-data-analysis) | Original | 2026-06-04 | IPL analytics across 1,169 matches and 18 seasons with static dataset-card verification and tightened data-backed claims |
 | 6 | [the-gauntlet-voice-agent](https://github.com/himanshu748/the-gauntlet-voice-agent) | Open-source fork | 2026-06-04 | LiveKit voice-agent pitch game with deterministic game-state tests, bounded tool inputs, and polished founder-session flow |
 
 ---

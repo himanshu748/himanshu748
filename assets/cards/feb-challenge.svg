@@ -15,7 +15,7 @@
   <text x="64" y="134" fill="#86EFAC" font-family="Arial, Helvetica, sans-serif" font-size="19">Codedex Feb 2026 data challenge submission</text>
 
   <rect x="64" y="164" width="430" height="34" rx="8" fill="#133028"/>
-  <text x="78" y="187" fill="#D8FBE6" font-family="Arial, Helvetica, sans-serif" font-size="15">278,205 deliveries | 1,169 matches | 17 IPL seasons</text>
+  <text x="78" y="187" fill="#D8FBE6" font-family="Arial, Helvetica, sans-serif" font-size="15">Static 2008-2025 snapshot | 1,169 matches | 18 IPL seasons</text>
 
   <rect x="64" y="216" width="494" height="30" rx="15" fill="#163F2E"/>
   <text x="82" y="236" fill="#BBF7D0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">10 interactive Plotly charts + narrative insights</text>
