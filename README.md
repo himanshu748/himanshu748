@@ -39,12 +39,12 @@ Selection logic: recency of updates, technical depth, and direct end-user useful
 
 | Rank | Project | Type | Updated | Why it stands out |
 | --- | --- | --- | --- | --- |
-| 1 | [omnidev](https://github.com/himanshu748/omnidev) | Original | 2026-05-18 | Local-first AI developer platform with configurable APIs, Gemini code generation, browser-tested frontend, and FastAPI services |
-| 2 | [sentinel-nosana-agent](https://github.com/himanshu748/sentinel-nosana-agent) | Original | 2026-04-13 | Crypto research agent on ElizaOS and Nosana with market, DeFi, RSS, Solana, and 60-test coverage |
-| 3 | [python-automation-training-toolkit](https://github.com/himanshu748/python-automation-training-toolkit) | Original | 2026-06-02 | Browser workspace and CLI for safe automation training across Hugging Face, AWS, S3, location, email, and gestures |
-| 4 | [prism-mistral-hackathon](https://github.com/himanshu748/prism-mistral-hackathon) | Original | 2026-02-28 | Multi-agent decision intelligence with Mistral tools, live debate, SSE streaming, and D3 graphs |
-| 5 | [ipl-evolution-data-analysis](https://github.com/himanshu748/ipl-evolution-data-analysis) | Original | 2026-02-21 | IPL analytics across 278K+ deliveries, 1,169 matches, and 17 seasons |
-| 6 | [langchain-rag-tutorial-2026](https://github.com/himanshu748/langchain-rag-tutorial-2026) | Original | 2026-01-22 | Practical RAG tutorial repo for modern LangChain-style retrieval workflows |
+| 1 | [omnidev](https://github.com/himanshu748/omnidev) | Original | 2026-06-03 | Local-first AI developer platform with configurable APIs, Gemini code generation, browser-tested frontend, and FastAPI services |
+| 2 | [sentinel-nosana-agent](https://github.com/himanshu748/sentinel-nosana-agent) | Original | 2026-06-04 | Crypto research agent on ElizaOS and Nosana with market, DeFi, RSS, Solana, provider validation, and 70-test coverage |
+| 3 | [python-automation-training-toolkit](https://github.com/himanshu748/python-automation-training-toolkit) | Original | 2026-06-04 | Browser workspace and CLI for safe automation training across Hugging Face, AWS, S3, location, email, gestures, and bounded local image paths |
+| 4 | [prism-mistral-hackathon](https://github.com/himanshu748/prism-mistral-hackathon) | Original | 2026-06-04 | Multi-agent decision intelligence with Mistral tools, live debate, SSE streaming, D3 graphs, and hardened tool-argument parsing |
+| 5 | [ipl-evolution-data-analysis](https://github.com/himanshu748/ipl-evolution-data-analysis) | Original | 2026-06-04 | IPL analytics across 278K+ deliveries, 1,169 matches, and 17 seasons with tightened data-backed claims |
+| 6 | [the-gauntlet-voice-agent](https://github.com/himanshu748/the-gauntlet-voice-agent) | Open-source fork | 2026-06-04 | LiveKit voice-agent pitch game with deterministic game-state tests, bounded tool inputs, and polished founder-session flow |
 
 ---
 
@@ -53,7 +53,7 @@ Selection logic: recency of updates, technical depth, and direct end-user useful
 All images below are stored in this repo under `assets/cards/` (no external image hosting).
 
 <p align="center">
-  <a href="https://github.com/himanshu748/reporank"><img src="./assets/cards/reporank.svg" alt="RepoRank project card" width="48%" /></a>
+  <a href="https://github.com/himanshu748/langchain-rag-tutorial-2026"><img src="./assets/cards/langchain-rag.svg" alt="LangChain RAG tutorial project card" width="48%" /></a>
   <a href="https://github.com/himanshu748/python-automation-training-toolkit"><img src="./assets/cards/python-automation-toolkit.svg" alt="Python Automation Toolkit project card" width="48%" /></a>
 </p>
 
@@ -72,27 +72,24 @@ All images below are stored in this repo under `assets/cards/` (no external imag
 ## Interactive Deep Dive
 
 <details>
-<summary><strong>RepoRank: impact analysis flow</strong></summary>
+<summary><strong>LangChain RAG Tutorial: retrieval workflow</strong></summary>
 
 <br />
 
 **Core modules**
-- Cross-source Coral SQL joins over GitHub, PyPI/npm, HackerNews, and Open Collective
-- FastAPI endpoint for repo analysis
-- Qwen-powered narrative report generation
-- Impact card with score, radar chart, pitch, and grant matches
+- FastAPI API boundaries with typed request validation
+- Retriever and generation layers split for clearer testing
+- Safe source handling so empty or malformed documents degrade predictably
+- Practical tutorial structure for modern retrieval workflows
 
 ```mermaid
 flowchart LR
-  UI["Dashboard"] --> API["FastAPI /analyze"]
-  API --> ORC["RepoRank Agent"]
-  ORC --> CORAL["Coral SQL"]
-  CORAL --> GH["GitHub"]
-  CORAL --> PKG["PyPI/npm"]
-  CORAL --> HN["HackerNews"]
-  CORAL --> OC["Open Collective"]
-  ORC --> LLM["Qwen Report"]
-  LLM --> CARD["Impact Card"]
+  USER["Question"] --> API["FastAPI RAG API"]
+  API --> LOAD["Document Loader"]
+  LOAD --> RET["Retriever"]
+  RET --> CTX["Grounded Context"]
+  CTX --> LLM["Answer Generator"]
+  LLM --> RESP["Cited Response"]
 ```
 
 </details>
