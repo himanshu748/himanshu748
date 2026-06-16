@@ -33,18 +33,18 @@
 
 ---
 
-## Best Projects (Snapshot: 2026-06-04)
+## Best Projects (Snapshot: 2026-06-16)
 
-Selection logic: recency of updates, technical depth, and direct end-user usefulness.
+Selection logic: technical depth, product completeness, current traffic, verification quality, and portfolio breadth.
 
 | Rank | Project | Type | Updated | Why it stands out |
 | --- | --- | --- | --- | --- |
-| 1 | [omnidev](https://github.com/himanshu748/omnidev) | Original | 2026-06-04 | Local-first AI developer platform with configurable APIs, Gemini code generation, browser-tested frontend, and FastAPI services |
-| 2 | [sentinel-nosana-agent](https://github.com/himanshu748/sentinel-nosana-agent) | Original | 2026-06-04 | Crypto research agent on ElizaOS and Nosana with market, DeFi, RSS, Solana, provider validation, and 70-test coverage |
-| 3 | [python-automation-training-toolkit](https://github.com/himanshu748/python-automation-training-toolkit) | Original | 2026-06-04 | Browser workspace and CLI for safe automation training across Hugging Face, AWS, S3, location, email, gestures, and bounded local image paths |
-| 4 | [prism-mistral-hackathon](https://github.com/himanshu748/prism-mistral-hackathon) | Original | 2026-06-04 | Multi-agent decision intelligence with Mistral tools, live debate, SSE streaming, D3 graphs, and hardened tool-argument parsing |
-| 5 | [ipl-evolution-data-analysis](https://github.com/himanshu748/ipl-evolution-data-analysis) | Original | 2026-06-04 | IPL analytics across 1,169 matches and 18 seasons with static dataset-card verification and tightened data-backed claims |
-| 6 | [the-gauntlet-voice-agent](https://github.com/himanshu748/the-gauntlet-voice-agent) | Open-source fork | 2026-06-04 | LiveKit voice-agent pitch game with deterministic game-state tests, bounded tool inputs, and polished founder-session flow |
+| 1 | [reporank](https://github.com/himanshu748/reporank) | Original | 2026-06-09 | Open-source impact and funding-readiness agent that joins GitHub, PyPI/npm, Hacker News, and Open Collective signals through Coral SQL, then generates a grant-ready report with Qwen |
+| 2 | [exam-panic-rescue](https://github.com/himanshu748/exam-panic-rescue) | Original | 2026-06-12 | Privacy-minded Gradio study assistant with strong clone traffic, multimodal small-model paths, real-user validation, and a complete student rescue workflow |
+| 3 | [pixel-digit-recognizer](https://github.com/himanshu748/pixel-digit-recognizer) | Original | 2026-06-13 | Browser-only MNIST recognizer with the strongest recent profile traffic, four stars, Pyodide-powered NumPy inference, and no backend dependency |
+| 4 | [FormOS](https://github.com/himanshu748/FormOS) | Original | 2026-06-13 | Full-stack retro OS form builder with Next.js, tRPC, Drizzle, PostgreSQL, public forms, QR sharing, analytics, and generated Scalar API docs |
+| 5 | [omnidev](https://github.com/himanshu748/omnidev) | Original | 2026-06-04 | Local-first AI developer platform with configurable APIs, Gemini code generation, browser-tested frontend, and FastAPI services |
+| 6 | [sentinel-nosana-agent](https://github.com/himanshu748/sentinel-nosana-agent) | Original | 2026-06-04 | Crypto research agent on ElizaOS and Nosana with market, DeFi, RSS, Solana, provider validation, and 70-test coverage |
 
 ---
 
@@ -53,8 +53,13 @@ Selection logic: recency of updates, technical depth, and direct end-user useful
 All images below are stored in this repo under `assets/cards/` (no external image hosting).
 
 <p align="center">
-  <a href="https://github.com/himanshu748/langchain-rag-tutorial-2026"><img src="./assets/cards/langchain-rag.svg" alt="LangChain RAG tutorial project card" width="48%" /></a>
+  <a href="https://github.com/himanshu748/reporank"><img src="./assets/cards/reporank.svg" alt="RepoRank project card" width="48%" /></a>
+  <a href="https://github.com/himanshu748/jee-neet-ai-concept-explainer"><img src="./assets/cards/jee-neet-explainer.svg" alt="JEE NEET AI concept explainer project card" width="48%" /></a>
+</p>
+
+<p align="center">
   <a href="https://github.com/himanshu748/python-automation-training-toolkit"><img src="./assets/cards/python-automation-toolkit.svg" alt="Python Automation Toolkit project card" width="48%" /></a>
+  <a href="https://github.com/himanshu748/documate-ai"><img src="./assets/cards/docs-agent.svg" alt="DocuMate AI project card" width="48%" /></a>
 </p>
 
 <p align="center">
@@ -62,84 +67,72 @@ All images below are stored in this repo under `assets/cards/` (no external imag
   <a href="https://github.com/himanshu748/sentinel-nosana-agent"><img src="./assets/cards/sentinel.svg" alt="Sentinel project card" width="48%" /></a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/himanshu748/prism-mistral-hackathon"><img src="./assets/cards/prism.svg" alt="Prism project card" width="48%" /></a>
-  <a href="https://github.com/himanshu748/ipl-evolution-data-analysis"><img src="./assets/cards/feb-challenge.svg" alt="IPL analysis project card" width="48%" /></a>
-</p>
-
 ---
 
 ## Interactive Deep Dive
 
 <details>
-<summary><strong>LangChain RAG Tutorial: retrieval workflow</strong></summary>
+<summary><strong>RepoRank: funding-readiness agent</strong></summary>
 
 <br />
 
 **Core modules**
-- FastAPI API boundaries with typed request validation
-- Retriever and generation layers split for clearer testing
-- Safe source handling so empty or malformed documents degrade predictably
-- Practical tutorial structure for modern retrieval workflows
+- FastAPI analysis endpoint with a Coral SQL orchestration layer
+- Cross-source signals from GitHub, PyPI/npm, Hacker News, and Open Collective
+- Hugging Face Qwen narrative generation for impact scoring and grant matching
+- Shareable dashboard output with score, pitch, radar chart, and matching programs
 
 ```mermaid
 flowchart LR
-  USER["Question"] --> API["FastAPI RAG API"]
-  API --> LOAD["Document Loader"]
-  LOAD --> RET["Retriever"]
-  RET --> CTX["Grounded Context"]
-  CTX --> LLM["Answer Generator"]
-  LLM --> RESP["Cited Response"]
+  USER["Repository URL"] --> API["FastAPI Analyze API"]
+  API --> CORAL["Coral SQL Query"]
+  CORAL --> SOURCES["GitHub + Packages + HN + Funding"]
+  SOURCES --> MODEL["Qwen Report Generator"]
+  MODEL --> CARD["Impact Card + Grant Matches"]
 ```
 
 </details>
 
 <details>
-<summary><strong>Python Automation Toolkit: training workflow</strong></summary>
+<summary><strong>Exam Panic Rescue: study triage workflow</strong></summary>
 
 <br />
 
 **Core modules**
-- Browser workspace split across overview, model, cloud, utility, and gesture pages
-- CLI commands for readiness checks, safe config display, model summaries, S3, EC2, location, and email
-- Feature-specific configuration gates so readiness works without secrets
-- Local HTTP server with bounded JSON bodies, static path checks, and image validation
+- Gradio product flow for one stressed student, one exam, and one time box
+- Small-model routes with MiniCPM, Nemotron, and local llama.cpp support
+- Vision-capable syllabus/photo handling plus text-only fallback paths
+- Privacy-minded traces with anonymized real-user validation
 
 ```mermaid
 flowchart LR
-  CLI["CLI + Browser UI"] --> CFG["Safe Readiness"]
-  CFG --> HF["Hugging Face Workflows"]
-  CFG --> AWS["EC2 + S3 Actions"]
-  CFG --> UTIL["Location + Email Utilities"]
-  CFG --> GEST["Browser Gesture Page"]
-  HF --> OUT["Training Output"]
-  AWS --> OUT
-  UTIL --> OUT
+  STUDENT["Panic Dump + Topics"] --> TRIAGE["Topic Triage"]
+  TRIAGE --> PLAN["Rescue Plan"]
+  PLAN --> DRILLS["Drill Deck"]
+  DRILLS --> PROOF["Proof Target"]
+  PROOF --> SHEET["Final Sheet + Receipt"]
 ```
 
 </details>
 
 <details>
-<summary><strong>Sentinel: crypto research agent</strong></summary>
+<summary><strong>FormOS: full-stack form platform</strong></summary>
 
 <br />
 
 **Core modules**
-- ElizaOS agent runtime
-- Market, token, news, research, and Nosana ecosystem actions
-- CoinGecko, DeFiLlama, RSS, and Solana public RPC providers
-- Nosana-hosted model inference with cached responses
+- Turborepo workspace with Next.js, tRPC, Drizzle, and PostgreSQL
+- Form editor, public form runner, QR sharing, and anonymous submissions
+- Analytics dashboard with response table and per-field breakdowns
+- Scalar docs generated from the live tRPC router
 
 ```mermaid
 flowchart LR
-  USER["Research Query"] --> AGENT["ElizaOS Agent"]
-  AGENT --> ACTIONS["Research Actions"]
-  ACTIONS --> CG["CoinGecko"]
-  ACTIONS --> DL["DeFiLlama"]
-  ACTIONS --> RSS["RSS Feeds"]
-  ACTIONS --> SOL["Solana RPC"]
-  AGENT --> NOS["Nosana GPU Inference"]
-  NOS --> REPORT["Data-backed Briefing"]
+  BUILDER["Form Builder"] --> TRPC["tRPC Procedures"]
+  PUBLIC["Public Form"] --> TRPC
+  TRPC --> DB["Drizzle + PostgreSQL"]
+  DB --> ANALYTICS["Analytics Dashboard"]
+  TRPC --> DOCS["Generated Scalar Docs"]
 ```
 
 </details>
@@ -150,8 +143,10 @@ flowchart LR
 
 | Track | Repositories |
 | --- | --- |
-| Agent products | [omnidev](https://github.com/himanshu748/omnidev), [sentinel-nosana-agent](https://github.com/himanshu748/sentinel-nosana-agent), [prism-mistral-hackathon](https://github.com/himanshu748/prism-mistral-hackathon), [prreviewiq-code-review-agent](https://github.com/himanshu748/prreviewiq-code-review-agent) |
-| Developer and automation tools | [python-automation-training-toolkit](https://github.com/himanshu748/python-automation-training-toolkit), [apivault-api-docs-generator](https://github.com/himanshu748/apivault-api-docs-generator), [pr-review-agent](https://github.com/himanshu748/pr-review-agent), [langchain-rag-tutorial-2026](https://github.com/himanshu748/langchain-rag-tutorial-2026) |
+| Best portfolio projects | [reporank](https://github.com/himanshu748/reporank), [exam-panic-rescue](https://github.com/himanshu748/exam-panic-rescue), [pixel-digit-recognizer](https://github.com/himanshu748/pixel-digit-recognizer), [FormOS](https://github.com/himanshu748/FormOS), [omnidev](https://github.com/himanshu748/omnidev), [sentinel-nosana-agent](https://github.com/himanshu748/sentinel-nosana-agent) |
+| Agent products | [omnidev](https://github.com/himanshu748/omnidev), [sentinel-nosana-agent](https://github.com/himanshu748/sentinel-nosana-agent), [prism-mistral-hackathon](https://github.com/himanshu748/prism-mistral-hackathon), [prreviewiq-code-review-agent](https://github.com/himanshu748/prreviewiq-code-review-agent), [jee-neet-ai-concept-explainer](https://github.com/himanshu748/jee-neet-ai-concept-explainer) |
+| Developer and automation tools | [python-automation-training-toolkit](https://github.com/himanshu748/python-automation-training-toolkit), [apivault-api-docs-generator](https://github.com/himanshu748/apivault-api-docs-generator), [pr-review-agent](https://github.com/himanshu748/pr-review-agent), [langchain-rag-tutorial-2026](https://github.com/himanshu748/langchain-rag-tutorial-2026), [webmcptutorial](https://github.com/himanshu748/webmcptutorial) |
+| Full-stack products | [FormOS](https://github.com/himanshu748/FormOS), [launchproof-ai](https://github.com/himanshu748/launchproof-ai), [opportunity-scout](https://github.com/himanshu748/opportunity-scout), [hireiq-recruiting-assistant](https://github.com/himanshu748/hireiq-recruiting-assistant), [documate-ai](https://github.com/himanshu748/documate-ai) |
 | Data and notebooks | [ipl-evolution-data-analysis](https://github.com/himanshu748/ipl-evolution-data-analysis), [deeplearning](https://github.com/himanshu748/deeplearning), [financeiq-notion-finance-tracker](https://github.com/himanshu748/financeiq-notion-finance-tracker), [autopm-notion-product-manager](https://github.com/himanshu748/autopm-notion-product-manager) |
 | Open-source contributions and forks | [OpenMetadata](https://github.com/himanshu748/OpenMetadata), [hive](https://github.com/himanshu748/hive), [coral](https://github.com/himanshu748/coral), [the-gauntlet-voice-agent](https://github.com/himanshu748/the-gauntlet-voice-agent) |
 
