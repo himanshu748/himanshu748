@@ -33,7 +33,7 @@
 
 <div align="center">
 
-<img src="https://profile-counter.glitch.me/himanshu748/count.svg" alt="visitor counter" />
+<img src="https://visitor-badge.laobi.icu/badge?page_id=himanshu748.himanshu748&left_text=PROFILE%20VISITORS&left_color=0D0221&right_color=FF2A6D" alt="visitor counter" />
 
 <br/><br/>
 
@@ -247,8 +247,21 @@ flowchart LR
 
 <div align="center">
 
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=himanshu748&show_icons=true&theme=synthwave&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D0221&title_color=05D9E8&icon_color=FF2A6D&text_color=e0e0e0" alt="GitHub Stats" />
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=himanshu748&layout=compact&theme=synthwave&hide_border=true&langs_count=8&bg_color=0D0221&title_color=05D9E8&text_color=e0e0e0" alt="Top Languages" />
+<img height="195em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=himanshu748&theme=2077" alt="Profile Details" />
+
+</div>
+
+<div align="center">
+
+<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=himanshu748&theme=2077" alt="GitHub Stats" />
+<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=himanshu748&theme=2077" alt="Top Languages" />
+
+</div>
+
+<div align="center">
+
+<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=himanshu748&theme=2077" alt="Most Commit Language" />
+<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=himanshu748&theme=2077&utcOffset=5.5" alt="Productive Time" />
 
 </div>
 
@@ -261,12 +274,6 @@ flowchart LR
 <div align="center">
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=himanshu748&bg_color=0D0221&color=05D9E8&line=FF2A6D&point=D300C5&area=true&hide_border=true" alt="Activity Graph" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=himanshu748&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="Trophies" />
 
 </div>
 
