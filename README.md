@@ -272,12 +272,6 @@ flowchart LR
 
 </div>
 
-<div align="center">
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=himanshu748&bg_color=0D0221&color=05D9E8&line=FF2A6D&point=D300C5&area=true&hide_border=true" alt="Activity Graph" />
-
-</div>
-
 <img width="100%" src="https://raw.githubusercontent.com/himanshu748/himanshu748/main/assets/divider.svg" alt="divider"/>
 
 ## `▚ CONTRIBUTION_SNAKE`
