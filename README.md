@@ -1,41 +1,65 @@
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                          HEADER  ·  HERO BANNER                          -->
+<!--                    ▓▓▓  CYBERPUNK PROFILE // himanshu748  ▓▓▓            -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
+<!-- ── Animated neon header ────────────────────────────────────────────── -->
 <p align="center">
-  <img src="./assets/himanshu-ai-workbench.svg" alt="Himanshu AI Workbench" width="100%" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FF2A6D,45:D300C5,100:05D9E8&height=240&section=header&text=HIMANSHU%20KUMAR&fontSize=64&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=%3C%2F%3E%20Full-Stack%20AI%20Developer%20//%20Agents%20//%20Systems&descAlignY=58&descSize=18" alt="header"/>
 </p>
 
-<h1 align="center">Himanshu Kumar</h1>
-
-<!-- ── Typing subtitle ─────────────────────────────────────────────────── -->
+<!-- ── Glitch typing subtitle ──────────────────────────────────────────── -->
 <p align="center">
   <a href="https://github.com/himanshu748">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=70A5FD&center=true&vCenter=true&width=760&lines=Full-Stack+AI+Developer;AI+Agents+%C2%B7+Full-Stack+Systems+%C2%B7+Data+Products;Reliable+APIs+%C2%B7+Polished+interfaces+%C2%B7+Production-minded;Idea+%E2%86%92+MVP+%E2%86%92+Ship.+Fast." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&pause=900&color=05D9E8&background=0D022100&center=true&vCenter=true&width=780&lines=%3E+booting+neural+workbench...;%3E+AI+agents+%C2%B7+full-stack+systems+%C2%B7+data+products;%3E+reliable+APIs+%C2%B7+polished+UI+%C2%B7+prod-minded;%3E+idea+--%3E+mvp+--%3E+ship.+fast." alt="Typing SVG" />
   </a>
 </p>
 
-<!-- ── Social / contact badges ─────────────────────────────────────────── -->
+<!-- ── Neon socials ────────────────────────────────────────────────────── -->
 <p align="center">
-  <a href="mailto:jhahimanshu653@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://linkedin.com/in/himanshu748"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://huggingface.co/HIMANSHUKUMARJHA"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-FFD21E?style=for-the-badge&logoColor=black" alt="HuggingFace" /></a>
-  <a href="https://github.com/himanshu748?tab=repositories"><img src="https://img.shields.io/badge/All%20Repos-181717?style=for-the-badge&logo=github&logoColor=white" alt="All Repositories" /></a>
+  <a href="mailto:jhahimanshu653@gmail.com"><img src="https://img.shields.io/badge/EMAIL-FF2A6D?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D0221" alt="Email" /></a>
+  <a href="https://linkedin.com/in/himanshu748"><img src="https://img.shields.io/badge/LINKEDIN-05D9E8?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D0221" alt="LinkedIn" /></a>
+  <a href="https://huggingface.co/HIMANSHUKUMARJHA"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HUGGINGFACE-D300C5?style=for-the-badge&logoColor=white&labelColor=0D0221" alt="HuggingFace" /></a>
+  <a href="https://github.com/himanshu748?tab=repositories"><img src="https://img.shields.io/badge/ALL%20REPOS-9D4EDD?style=for-the-badge&logo=github&logoColor=white&labelColor=0D0221" alt="All Repositories" /></a>
 </p>
 
-<!-- ── Live counters ───────────────────────────────────────────────────── -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=himanshu748&label=Profile%20views&color=70A5FD&style=flat-square" alt="views" />
-  <img src="https://img.shields.io/github/followers/himanshu748?label=Followers&style=flat-square&color=BB9AF7" alt="followers" />
-</p>
+<!-- ── Neon divider ────────────────────────────────────────────────────── -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:FF2A6D,50:D300C5,100:05D9E8&height=2" alt="divider"/>
 
-<p align="center">
-  Building practical AI products with reliable APIs, polished interfaces, and production-minded engineering.
-</p>
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!--                          PROFILE VIEWER                                 -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
 
----
+## `▚ PROFILE_VIEWER`
 
-## How I Build
+<div align="center">
+
+<img src="https://profile-counter.glitch.me/himanshu748/count.svg" alt="visitor counter" />
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=himanshu748&label=TOTAL%20VIEWS&color=FF2A6D&style=for-the-badge&labelColor=0D0221" alt="views" />
+<img src="https://img.shields.io/github/followers/himanshu748?label=FOLLOWERS&style=for-the-badge&color=05D9E8&labelColor=0D0221" alt="followers" />
+<img src="https://img.shields.io/github/stars/himanshu748?label=TOTAL%20STARS&style=for-the-badge&color=D300C5&labelColor=0D0221" alt="stars" />
+
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:05D9E8,50:D300C5,100:FF2A6D&height=2" alt="divider"/>
+
+## `▚ WHOAMI`
+
+```ts
+const himanshu: Engineer = {
+  role:      "Full-Stack AI Developer",
+  focus:     ["AI Agents", "Full-Stack Systems", "Data Products", "Developer Tools"],
+  building:  "Practical AI products with reliable APIs & polished interfaces",
+  backend:   "FastAPI · Express · tRPC · Drizzle · PostgreSQL",
+  frontend:  "React · Next.js · TypeScript · Tailwind",
+  edge:      "Agent tool-calling with structured outputs",
+  mindset:   "Production-minded. Idea → MVP → Ship. Fast.",
+};
+```
+
+### How I Build
 
 | Area | Engineering focus |
 | --- | --- |
@@ -45,48 +69,101 @@
 | Realtime UX | Streaming updates, Socket.IO/SSE flows, live status feedback |
 | Open source | Fast iteration across forks, hackathons, and upstream ecosystems |
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:FF2A6D,50:D300C5,100:05D9E8&height=2" alt="divider"/>
 
-## Best Projects (Snapshot: 2026-06-16)
+## `▚ TECH_ARSENAL`
 
-Selection logic: technical depth, product completeness, current traffic, verification quality, and portfolio breadth.
+<div align="center">
 
-| Rank | Project | Type | Updated | Why it stands out |
-| --- | --- | --- | --- | --- |
-| 1 | [reporank](https://github.com/himanshu748/reporank) | Original | 2026-06-09 | Open-source impact and funding-readiness agent that joins GitHub, PyPI/npm, Hacker News, and Open Collective signals through Coral SQL, then generates a grant-ready report with Qwen |
-| 2 | [exam-panic-rescue](https://github.com/himanshu748/exam-panic-rescue) | Original | 2026-06-12 | Privacy-minded Gradio study assistant with strong clone traffic, multimodal small-model paths, real-user validation, and a complete student rescue workflow |
-| 3 | [pixel-digit-recognizer](https://github.com/himanshu748/pixel-digit-recognizer) | Original | 2026-06-13 | Browser-only MNIST recognizer with the strongest recent profile traffic, four stars, Pyodide-powered NumPy inference, and no backend dependency |
-| 4 | [FormOS](https://github.com/himanshu748/FormOS) | Original | 2026-06-13 | Full-stack retro OS form builder with Next.js, tRPC, Drizzle, PostgreSQL, public forms, QR sharing, analytics, and generated Scalar API docs |
-| 5 | [omnidev](https://github.com/himanshu748/omnidev) | Original | 2026-06-04 | Local-first AI developer platform with configurable APIs, Gemini code generation, browser-tested frontend, and FastAPI services |
-| 6 | [sentinel-nosana-agent](https://github.com/himanshu748/sentinel-nosana-agent) | Original | 2026-06-04 | Crypto research agent on ElizaOS and Nosana with market, DeFi, RSS, Solana, provider validation, and 70-test coverage |
+![Python](https://img.shields.io/badge/Python-05D9E8?style=for-the-badge&logo=python&logoColor=white&labelColor=0D0221)
+![TypeScript](https://img.shields.io/badge/TypeScript-05D9E8?style=for-the-badge&logo=typescript&logoColor=white&labelColor=0D0221)
+![JavaScript](https://img.shields.io/badge/JavaScript-05D9E8?style=for-the-badge&logo=javascript&logoColor=white&labelColor=0D0221)
 
----
+![React](https://img.shields.io/badge/React-D300C5?style=for-the-badge&logo=react&logoColor=white&labelColor=0D0221)
+![Next.js](https://img.shields.io/badge/Next.js-D300C5?style=for-the-badge&logo=next.js&logoColor=white&labelColor=0D0221)
+![tRPC](https://img.shields.io/badge/tRPC-D300C5?style=for-the-badge&logo=trpc&logoColor=white&labelColor=0D0221)
+![FastAPI](https://img.shields.io/badge/FastAPI-D300C5?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=0D0221)
+![Tailwind](https://img.shields.io/badge/Tailwind-D300C5?style=for-the-badge&logo=tailwindcss&logoColor=white&labelColor=0D0221)
 
-## Visual Project Gallery (Local Images)
+![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Transformers-FF2A6D?style=for-the-badge&logoColor=white&labelColor=0D0221)
+![Gemini](https://img.shields.io/badge/Gemini-FF2A6D?style=for-the-badge&logo=google&logoColor=white&labelColor=0D0221)
+![Ollama](https://img.shields.io/badge/Ollama-FF2A6D?style=for-the-badge&logo=ollama&logoColor=white&labelColor=0D0221)
 
-All images below are stored in this repo under `assets/cards/` (no external image hosting).
+![PostgreSQL](https://img.shields.io/badge/Postgres-9D4EDD?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=0D0221)
+![Docker](https://img.shields.io/badge/Docker-9D4EDD?style=for-the-badge&logo=docker&logoColor=white&labelColor=0D0221)
+![AWS](https://img.shields.io/badge/AWS-9D4EDD?style=for-the-badge&logo=amazon-aws&logoColor=white&labelColor=0D0221)
+![Kubernetes](https://img.shields.io/badge/K8s-9D4EDD?style=for-the-badge&logo=kubernetes&logoColor=white&labelColor=0D0221)
+![Playwright](https://img.shields.io/badge/Playwright-9D4EDD?style=for-the-badge&logo=playwright&logoColor=white&labelColor=0D0221)
 
-<p align="center">
-  <a href="https://github.com/himanshu748/reporank"><img src="./assets/cards/reporank.svg" alt="RepoRank project card" width="48%" /></a>
-  <a href="https://github.com/himanshu748/jee-neet-ai-concept-explainer"><img src="./assets/cards/jee-neet-explainer.svg" alt="JEE NEET AI concept explainer project card" width="48%" /></a>
-</p>
+</div>
 
-<p align="center">
-  <a href="https://github.com/himanshu748/python-automation-training-toolkit"><img src="./assets/cards/python-automation-toolkit.svg" alt="Python Automation Toolkit project card" width="48%" /></a>
-  <a href="https://github.com/himanshu748/documate-ai"><img src="./assets/cards/docs-agent.svg" alt="DocuMate AI project card" width="48%" /></a>
-</p>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:05D9E8,50:D300C5,100:FF2A6D&height=2" alt="divider"/>
 
-<p align="center">
-  <a href="https://github.com/himanshu748/omnidev"><img src="./assets/cards/omnidev.svg" alt="OmniDev project card" width="48%" /></a>
-  <a href="https://github.com/himanshu748/sentinel-nosana-agent"><img src="./assets/cards/sentinel.svg" alt="Sentinel project card" width="48%" /></a>
-</p>
+## `▚ BEST_PROJECTS`  <sub>// snapshot 2026-06-16</sub>
 
----
+<table>
+<tr>
+<td width="50%" valign="top">
 
-## Interactive Deep Dive
+### 🛰️ [reporank](https://github.com/himanshu748/reporank)
+Open-source impact & funding-readiness agent — joins GitHub, PyPI/npm, HN, and Open Collective via Coral SQL, then ships a grant-ready report with Qwen.
+<br/><br/>
+`FastAPI` `Coral SQL` `Qwen` `Agents`
+
+</td>
+<td width="50%" valign="top">
+
+### 🧯 [exam-panic-rescue](https://github.com/himanshu748/exam-panic-rescue)
+Privacy-minded Gradio study assistant — turns last-minute panic into triage plans, drills, and a final sheet. Multimodal small-model routes.
+<br/><br/>
+`Gradio` `LLM` `Vision` `Privacy`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🔢 [pixel-digit-recognizer](https://github.com/himanshu748/pixel-digit-recognizer)
+Browser-only MNIST recognizer — Pyodide runs a pure-NumPy neural net, zero backend, zero API calls.
+<br/><br/>
+`Pyodide` `NumPy` `ML` `No-API`
+
+</td>
+<td width="50%" valign="top">
+
+### 🗂️ [FormOS](https://github.com/himanshu748/FormOS)
+Retro-OS full-stack form builder — Next.js, tRPC, Drizzle, Postgres, public forms, QR sharing, analytics, generated Scalar docs.
+<br/><br/>
+`Next.js` `tRPC` `Drizzle` `Postgres`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 💻 [omnidev](https://github.com/himanshu748/omnidev)
+Local-first AI developer platform — configurable APIs, Gemini code generation, browser-tested frontend, FastAPI services.
+<br/><br/>
+`AI` `Dev Tools` `FastAPI` `Gemini`
+
+</td>
+<td width="50%" valign="top">
+
+### 🛡️ [sentinel-nosana-agent](https://github.com/himanshu748/sentinel-nosana-agent)
+Crypto research agent on ElizaOS + Nosana — market, DeFi, RSS, Solana, provider validation, 70-test coverage.
+<br/><br/>
+`ElizaOS` `Nosana` `Solana` `DeFi`
+
+</td>
+</tr>
+</table>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:FF2A6D,50:D300C5,100:05D9E8&height=2" alt="divider"/>
+
+## `▚ ARCHITECTURE_DEEP_DIVE`
 
 <details>
-<summary><strong>RepoRank: funding-readiness agent</strong></summary>
+<summary><strong>▸ RepoRank: funding-readiness agent</strong></summary>
 
 <br />
 
@@ -108,7 +185,7 @@ flowchart LR
 </details>
 
 <details>
-<summary><strong>Exam Panic Rescue: study triage workflow</strong></summary>
+<summary><strong>▸ Exam Panic Rescue: study triage workflow</strong></summary>
 
 <br />
 
@@ -130,7 +207,7 @@ flowchart LR
 </details>
 
 <details>
-<summary><strong>FormOS: full-stack form platform</strong></summary>
+<summary><strong>▸ FormOS: full-stack form platform</strong></summary>
 
 <br />
 
@@ -151,9 +228,9 @@ flowchart LR
 
 </details>
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:05D9E8,50:D300C5,100:FF2A6D&height=2" alt="divider"/>
 
-## Current Repository Map
+## `▚ REPOSITORY_MAP`
 
 | Track | Repositories |
 | --- | --- |
@@ -164,65 +241,48 @@ flowchart LR
 | Data and notebooks | [ipl-evolution-data-analysis](https://github.com/himanshu748/ipl-evolution-data-analysis), [deeplearning](https://github.com/himanshu748/deeplearning), [financeiq-notion-finance-tracker](https://github.com/himanshu748/financeiq-notion-finance-tracker), [autopm-notion-product-manager](https://github.com/himanshu748/autopm-notion-product-manager) |
 | Open-source contributions and forks | [OpenMetadata](https://github.com/himanshu748/OpenMetadata), [hive](https://github.com/himanshu748/hive), [coral](https://github.com/himanshu748/coral), [the-gauntlet-voice-agent](https://github.com/himanshu748/the-gauntlet-voice-agent) |
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:FF2A6D,50:D300C5,100:05D9E8&height=2" alt="divider"/>
 
-## Stack
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white" alt="Gemini" />
-  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
-</p>
-
----
-
-## GitHub Analytics
+## `▚ SYSTEM_ANALYTICS`
 
 <div align="center">
 
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=himanshu748&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&title_color=70A5FD&icon_color=BB9AF7" alt="GitHub Stats" />
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=himanshu748&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&title_color=70A5FD" alt="Top Languages" />
+<img height="170em" src="https://github-readme-stats.vercel.app/api?username=himanshu748&show_icons=true&theme=synthwave&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D0221&title_color=05D9E8&icon_color=FF2A6D&text_color=e0e0e0" alt="GitHub Stats" />
+<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=himanshu748&layout=compact&theme=synthwave&hide_border=true&langs_count=8&bg_color=0D0221&title_color=05D9E8&text_color=e0e0e0" alt="Top Languages" />
 
 </div>
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=himanshu748&theme=tokyonight&hide_border=true&ring=70A5FD&fire=BB9AF7&currStreakLabel=70A5FD" alt="GitHub Streak" />
+<img src="https://streak-stats.demolab.com?user=himanshu748&theme=synthwave&hide_border=true&background=0D0221&ring=FF2A6D&fire=D300C5&currStreakLabel=05D9E8&sideLabels=05D9E8&dates=808080" alt="GitHub Streak" />
 
 </div>
 
 <div align="center">
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=himanshu748&bg_color=1a1b27&color=70A5FD&line=BB9AF7&point=ffffff&area=true&hide_border=true" alt="Activity Graph" />
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=himanshu748&bg_color=0D0221&color=05D9E8&line=FF2A6D&point=D300C5&area=true&hide_border=true" alt="Activity Graph" />
 
 </div>
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=himanshu748&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8" alt="Trophies" />
+<img src="https://github-profile-trophy.vercel.app/?username=himanshu748&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="Trophies" />
 
 </div>
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:05D9E8,50:D300C5,100:FF2A6D&height=2" alt="divider"/>
 
-## Contribution Graph
+## `▚ CONTRIBUTION_SNAKE`
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/himanshu748/himanshu748/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
 </div>
 
-<sub>The snake auto-regenerates daily via <code>.github/workflows/snake.yml</code>. Run it once from the <strong>Actions</strong> tab to seed the first frame.</sub>
+<sub>Auto-regenerates daily via <code>.github/workflows/snake.yml</code>. Run it once from the <strong>Actions</strong> tab to seed the first frame.</sub>
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:FF2A6D,50:D300C5,100:05D9E8&height=2" alt="divider"/>
 
-## 💖 Sponsor My Work
+## `▚ SPONSOR_ME`  💖
 
 <div align="center">
 
@@ -234,7 +294,7 @@ sponsorship keeps the work shipping and the tools free for everyone.
 <br />
 
 <a href="https://github.com/sponsors/himanshu748">
-  <img src="https://img.shields.io/badge/Sponsor%20on%20GitHub-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor" />
+  <img src="https://img.shields.io/badge/%E2%9A%A1%20SPONSOR%20ON%20GITHUB-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white&labelColor=0D0221" alt="Sponsor" />
 </a>
 
 </div>
@@ -256,14 +316,18 @@ sponsorship keeps the work shipping and the tools free for everyone.
 
 **🌟 Current Sponsors**
 
-<a href="https://github.com/sponsors/himanshu748"><img src="https://img.shields.io/badge/Be%20the%20first%20sponsor-%E2%9D%A4-EA4AAA?style=flat-square" alt="be first" /></a>
+<a href="https://github.com/sponsors/himanshu748"><img src="https://img.shields.io/badge/BE%20THE%20FIRST%20SPONSOR-%E2%9D%A4-FF2A6D?style=for-the-badge&labelColor=0D0221" alt="be first" /></a>
 
 </div>
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:05D9E8,50:D300C5,100:FF2A6D&height=2" alt="divider"/>
 
-## Contact
+## `▚ CONTACT`
 
-- Email: [jhahimanshu653@gmail.com](mailto:jhahimanshu653@gmail.com)
-- LinkedIn: [linkedin.com/in/himanshu748](https://linkedin.com/in/himanshu748)
-- GitHub: [github.com/himanshu748](https://github.com/himanshu748)
+- **Email** — [jhahimanshu653@gmail.com](mailto:jhahimanshu653@gmail.com)
+- **LinkedIn** — [linkedin.com/in/himanshu748](https://linkedin.com/in/himanshu748)
+- **GitHub** — [github.com/himanshu748](https://github.com/himanshu748)
+
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:05D9E8,50:D300C5,100:FF2A6D&height=140&section=footer&text=predict%20the%20future%20//%20build%20it&fontSize=20&fontColor=ffffff&fontAlignY=72" alt="footer"/>
+</p>
