@@ -18,7 +18,8 @@
 <p align="center">
   <a href="mailto:jhahimanshu653@gmail.com"><img src="https://img.shields.io/badge/EMAIL-FF2A6D?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D0221" alt="Email" /></a>
   <a href="https://linkedin.com/in/himanshu748"><img src="https://img.shields.io/badge/LINKEDIN-05D9E8?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D0221" alt="LinkedIn" /></a>
-  <a href="https://huggingface.co/HIMANSHUKUMARJHA"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HUGGINGFACE-D300C5?style=for-the-badge&logoColor=white&labelColor=0D0221" alt="HuggingFace" /></a>
+  <a href="https://x.com/jhahimanshu653"><img src="https://img.shields.io/badge/X-D300C5?style=for-the-badge&logo=x&logoColor=white&labelColor=0D0221" alt="X" /></a>
+  <a href="https://huggingface.co/HIMANSHUKUMARJHA"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HUGGINGFACE-9D4EDD?style=for-the-badge&logoColor=white&labelColor=0D0221" alt="HuggingFace" /></a>
   <a href="https://github.com/himanshu748?tab=repositories"><img src="https://img.shields.io/badge/ALL%20REPOS-9D4EDD?style=for-the-badge&logo=github&logoColor=white&labelColor=0D0221" alt="All Repositories" /></a>
 </p>
 
@@ -332,6 +333,7 @@ sponsorship keeps the work shipping and the tools free for everyone.
 ## `▚ CONTACT`
 
 - **Email** — [jhahimanshu653@gmail.com](mailto:jhahimanshu653@gmail.com)
+- **X** — [x.com/jhahimanshu653](https://x.com/jhahimanshu653)
 - **LinkedIn** — [linkedin.com/in/himanshu748](https://linkedin.com/in/himanshu748)
 - **GitHub** — [github.com/himanshu748](https://github.com/himanshu748)
 
