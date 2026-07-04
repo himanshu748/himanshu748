@@ -1,0 +1,10 @@
+# These are supported funding model platforms
+# Docs: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository
+
+github: [himanshu748]        # Enables the native "Sponsor" button → github.com/sponsors/himanshu748
+
+# ── Optional extra platforms — uncomment and fill in if you use them ──
+# buy_me_a_coffee: your_handle
+# ko_fi: your_handle
+# patreon: your_handle
+# custom: ["https://your-site.com/donate"]
