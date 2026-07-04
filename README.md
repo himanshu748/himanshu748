@@ -100,7 +100,7 @@ const himanshu: Engineer = {
 
 <img width="100%" src="https://raw.githubusercontent.com/himanshu748/himanshu748/main/assets/divider.svg" alt="divider"/>
 
-## `▚ BEST_PROJECTS`  <sub>// snapshot 2026-06-16</sub>
+## `▚ BEST_PROJECTS`  <sub>// hand-picked</sub>
 
 <table>
 <tr>
