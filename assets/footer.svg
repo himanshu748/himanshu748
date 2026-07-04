@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150" font-family="'Courier New', ui-monospace, monospace">
+  <defs>
+    <linearGradient id="fneon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#05D9E8">
+        <animate attributeName="stop-color" values="#05D9E8;#D300C5;#FF2A6D;#05D9E8" dur="7s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="0.5" stop-color="#D300C5">
+        <animate attributeName="stop-color" values="#D300C5;#FF2A6D;#05D9E8;#D300C5" dur="7s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#FF2A6D">
+        <animate attributeName="stop-color" values="#FF2A6D;#05D9E8;#D300C5;#FF2A6D" dur="7s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="fglow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="fgrid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#0f2f40" stroke-width="1"/>
+      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="42 42" dur="9s" repeatCount="indefinite"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="150" fill="#0D0221"/>
+  <rect width="1200" height="150" fill="url(#fgrid)" opacity="0.5"/>
+
+  <line x1="60" y1="20" x2="1140" y2="20" stroke="#123a4d" stroke-width="2"/>
+  <rect y="18" width="150" height="4" rx="2" fill="url(#fneon)">
+    <animate attributeName="x" values="-150;1200" dur="4.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="600" y="82" text-anchor="middle" font-size="26" font-weight="bold"
+        fill="url(#fneon)" filter="url(#fglow)" letter-spacing="4">PREDICT THE FUTURE // BUILD IT</text>
+  <text x="600" y="116" text-anchor="middle" font-size="14" fill="#5f7d8c" letter-spacing="3">&#62; thanks for scrolling &#8212; let's build something<tspan fill="#05D9E8" dx="2">&#95;<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.5;0.5;0.99;1" dur="1.05s" repeatCount="indefinite"/></tspan></text>
+</svg>

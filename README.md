@@ -4,7 +4,7 @@
 
 <!-- ── Animated neon header ────────────────────────────────────────────── -->
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FF2A6D,45:D300C5,100:05D9E8&height=240&section=header&text=HIMANSHU%20KUMAR&fontSize=64&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=%3C%2F%3E%20Full-Stack%20AI%20Developer%20//%20Agents%20//%20Systems&descAlignY=58&descSize=18" alt="header"/>
+  <img width="100%" src="https://raw.githubusercontent.com/himanshu748/himanshu748/main/assets/banner.svg" alt="header"/>
 </p>
 
 <!-- ── Glitch typing subtitle ──────────────────────────────────────────── -->
@@ -24,7 +24,7 @@
 </p>
 
 <!-- ── Neon divider ────────────────────────────────────────────────────── -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:FF2A6D,50:D300C5,100:05D9E8&height=2" alt="divider"/>
+<img width="100%" src="https://raw.githubusercontent.com/himanshu748/himanshu748/main/assets/divider.svg" alt="divider"/>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!--                          PROFILE VIEWER                                 -->
@@ -44,7 +44,7 @@
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:05D9E8,50:D300C5,100:FF2A6D&height=2" alt="divider"/>
+<img width="100%" src="https://raw.githubusercontent.com/himanshu748/himanshu748/main/assets/divider.svg" alt="divider"/>
 
 ## `▚ WHOAMI`
 
@@ -70,7 +70,7 @@ const himanshu: Engineer = {
 | Realtime UX | Streaming updates, Socket.IO/SSE flows, live status feedback |
 | Open source | Fast iteration across forks, hackathons, and upstream ecosystems |
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:FF2A6D,50:D300C5,100:05D9E8&height=2" alt="divider"/>
+<img width="100%" src="https://raw.githubusercontent.com/himanshu748/himanshu748/main/assets/divider.svg" alt="divider"/>
 
 ## `▚ TECH_ARSENAL`
 
@@ -98,7 +98,7 @@ const himanshu: Engineer = {
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:05D9E8,50:D300C5,100:FF2A6D&height=2" alt="divider"/>
+<img width="100%" src="https://raw.githubusercontent.com/himanshu748/himanshu748/main/assets/divider.svg" alt="divider"/>
 
 ## `▚ BEST_PROJECTS`  <sub>// snapshot 2026-06-16</sub>
 
@@ -159,7 +159,7 @@ Crypto research agent on ElizaOS + Nosana — market, DeFi, RSS, Solana, provide
 </tr>
 </table>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:FF2A6D,50:D300C5,100:05D9E8&height=2" alt="divider"/>
+<img width="100%" src="https://raw.githubusercontent.com/himanshu748/himanshu748/main/assets/divider.svg" alt="divider"/>
 
 ## `▚ ARCHITECTURE_DEEP_DIVE`
 
@@ -229,7 +229,7 @@ flowchart LR
 
 </details>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:05D9E8,50:D300C5,100:FF2A6D&height=2" alt="divider"/>
+<img width="100%" src="https://raw.githubusercontent.com/himanshu748/himanshu748/main/assets/divider.svg" alt="divider"/>
 
 ## `▚ REPOSITORY_MAP`
 
@@ -242,7 +242,7 @@ flowchart LR
 | Data and notebooks | [ipl-evolution-data-analysis](https://github.com/himanshu748/ipl-evolution-data-analysis), [deeplearning](https://github.com/himanshu748/deeplearning), [financeiq-notion-finance-tracker](https://github.com/himanshu748/financeiq-notion-finance-tracker), [autopm-notion-product-manager](https://github.com/himanshu748/autopm-notion-product-manager) |
 | Open-source contributions and forks | [OpenMetadata](https://github.com/himanshu748/OpenMetadata), [hive](https://github.com/himanshu748/hive), [coral](https://github.com/himanshu748/coral), [the-gauntlet-voice-agent](https://github.com/himanshu748/the-gauntlet-voice-agent) |
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:FF2A6D,50:D300C5,100:05D9E8&height=2" alt="divider"/>
+<img width="100%" src="https://raw.githubusercontent.com/himanshu748/himanshu748/main/assets/divider.svg" alt="divider"/>
 
 ## `▚ SYSTEM_ANALYTICS`
 
@@ -278,7 +278,7 @@ flowchart LR
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:05D9E8,50:D300C5,100:FF2A6D&height=2" alt="divider"/>
+<img width="100%" src="https://raw.githubusercontent.com/himanshu748/himanshu748/main/assets/divider.svg" alt="divider"/>
 
 ## `▚ CONTRIBUTION_SNAKE`
 
@@ -288,7 +288,7 @@ flowchart LR
 
 <sub>Auto-regenerates daily via <code>.github/workflows/snake.yml</code>. Run it once from the <strong>Actions</strong> tab to seed the first frame.</sub>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:FF2A6D,50:D300C5,100:05D9E8&height=2" alt="divider"/>
+<img width="100%" src="https://raw.githubusercontent.com/himanshu748/himanshu748/main/assets/divider.svg" alt="divider"/>
 
 ## `▚ SPONSOR_ME`  💖
 
@@ -328,7 +328,7 @@ sponsorship keeps the work shipping and the tools free for everyone.
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:05D9E8,50:D300C5,100:FF2A6D&height=2" alt="divider"/>
+<img width="100%" src="https://raw.githubusercontent.com/himanshu748/himanshu748/main/assets/divider.svg" alt="divider"/>
 
 ## `▚ CONTACT`
 
@@ -338,5 +338,5 @@ sponsorship keeps the work shipping and the tools free for everyone.
 - **GitHub** — [github.com/himanshu748](https://github.com/himanshu748)
 
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:05D9E8,50:D300C5,100:FF2A6D&height=140&section=footer&text=predict%20the%20future%20//%20build%20it&fontSize=20&fontColor=ffffff&fontAlignY=72" alt="footer"/>
+  <img width="100%" src="https://raw.githubusercontent.com/himanshu748/himanshu748/main/assets/footer.svg" alt="footer"/>
 </p>

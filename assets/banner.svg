@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" font-family="'Courier New', ui-monospace, monospace">
+  <defs>
+    <!-- color-cycling neon gradient -->
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#05D9E8">
+        <animate attributeName="stop-color" values="#05D9E8;#D300C5;#FF2A6D;#05D9E8" dur="7s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="0.5" stop-color="#D300C5">
+        <animate attributeName="stop-color" values="#D300C5;#FF2A6D;#05D9E8;#D300C5" dur="7s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#FF2A6D">
+        <animate attributeName="stop-color" values="#FF2A6D;#05D9E8;#D300C5;#FF2A6D" dur="7s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- vertical scan gradient -->
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#05D9E8" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#05D9E8" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#05D9E8" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- neon glow -->
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4.5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- moving cyberpunk grid -->
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#0f2f40" stroke-width="1"/>
+      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="42 42" dur="9s" repeatCount="indefinite"/>
+    </pattern>
+  </defs>
+
+  <!-- backdrop -->
+  <rect width="1200" height="300" fill="#0D0221"/>
+  <rect width="1200" height="300" fill="url(#grid)" opacity="0.55"/>
+  <radialGradient id="vig" cx="0.5" cy="0.5" r="0.75">
+    <stop offset="0.55" stop-color="#0D0221" stop-opacity="0"/>
+    <stop offset="1" stop-color="#0D0221" stop-opacity="0.85"/>
+  </radialGradient>
+  <rect width="1200" height="300" fill="url(#vig)"/>
+
+  <!-- moving scanline band -->
+  <rect x="0" y="-90" width="1200" height="90" fill="url(#scan)">
+    <animate attributeName="y" values="-90;300" dur="5.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- top / bottom neon rails + travelling light -->
+  <line x1="60" y1="14" x2="1140" y2="14" stroke="#123a4d" stroke-width="2"/>
+  <line x1="60" y1="286" x2="1140" y2="286" stroke="#123a4d" stroke-width="2"/>
+  <rect y="12" width="150" height="4" rx="2" fill="url(#neon)">
+    <animate attributeName="x" values="-150;1200" dur="4.5s" repeatCount="indefinite"/>
+  </rect>
+  <rect y="284" width="150" height="4" rx="2" fill="url(#neon)">
+    <animate attributeName="x" values="1200;-150" dur="4.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- HUD corner brackets -->
+  <g stroke="#05D9E8" stroke-width="2.5" fill="none" opacity="0.9">
+    <path d="M30 46 V30 H46"/>
+    <path d="M1170 46 V30 H1154"/>
+    <path d="M30 254 V270 H46"/>
+    <path d="M1170 254 V270 H1154"/>
+  </g>
+
+  <!-- title -->
+  <text x="600" y="150" text-anchor="middle" font-size="58" font-weight="bold"
+        fill="url(#neon)" filter="url(#glow)" letter-spacing="4">HIMANSHU KUMAR
+    <animate attributeName="opacity" values="1;1;0.72;1;1;0.88;1"
+             keyTimes="0;0.42;0.45;0.48;0.72;0.75;1" dur="5s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- subtitle -->
+  <text x="600" y="196" text-anchor="middle" font-size="21" fill="#8BE9F0" letter-spacing="3">&#60;/&#62; FULL-STACK AI DEVELOPER  //  AI AGENTS  //  SYSTEMS</text>
+
+  <!-- terminal prompt with blinking cursor -->
+  <text x="600" y="234" text-anchor="middle" font-size="16" fill="#FF6EA6" letter-spacing="1">&#62; idea -&#62; mvp -&#62; ship<tspan fill="#05D9E8" dx="2">&#95;<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.5;0.5;0.99;1" dur="1.05s" repeatCount="indefinite"/></tspan></text>
+</svg>
