@@ -307,7 +307,7 @@ sponsorship keeps the work shipping and the tools free for everyone.
 | :---: | :---: | :--- |
 | ☕ **Espresso** | `$5 / mo` | My genuine thanks + your name in the supporters list below |
 | ⚡ **Builder** | `$15 / mo` | Above + early access to new tools and priority issue responses |
-| 🚀 **Backer** | `$50 / mo` | Above + a monthly 30-min call — AI/agents, architecture, or your project |
+| 🚀 **Backer** | `$50 / mo` | Above + a monthly 30-min talk — AI/agents, architecture, or your project |
 | 🏆 **Patron** | `$100+ / mo` | Above + your logo/link featured here and across my project READMEs |
 
 <div align="center">
