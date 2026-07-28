@@ -51,6 +51,7 @@
 ```ts
 const himanshu: Engineer = {
   role:      "Full-Stack AI Developer",
+  awards:    "🏆 Won the Hugging Face Tiny Titan track with Thousand Tokens Theatre",
   focus:     ["AI Agents", "Full-Stack Systems", "Data Products", "Developer Tools"],
   building:  "Practical AI products with reliable APIs & polished interfaces",
   backend:   "FastAPI · Express · tRPC · Drizzle · PostgreSQL",
@@ -106,36 +107,36 @@ const himanshu: Engineer = {
 <tr>
 <td width="50%" valign="top">
 
-### 🛰️ [reporank](https://github.com/himanshu748/reporank)
-Open-source impact & funding-readiness agent — joins GitHub, PyPI/npm, HN, and Open Collective via Coral SQL, then ships a grant-ready report with Qwen.
+### 💥 [blastradius](https://github.com/himanshu748/blastradius)
+Pre-merge impact analysis for schema changes. Walks DataHub column-level lineage to find every downstream table, dashboard and ML asset a dropped column breaks, names each owner, then writes the verdict back into DataHub.
 <br/><br/>
-`FastAPI` `Coral SQL` `Qwen` `Agents`
+`DataHub` `Lineage` `Python` `CLI`
 
 </td>
 <td width="50%" valign="top">
 
-### 🧯 [exam-panic-rescue](https://github.com/himanshu748/exam-panic-rescue)
-Privacy-minded Gradio study assistant — turns last-minute panic into triage plans, drills, and a final sheet. Multimodal small-model routes.
+### 🔐 [circuit-allowance-sentinel](https://github.com/himanshu748/circuit-allowance-sentinel)
+Policy-gated incident response for onchain treasuries. Revokes a risky ERC-20 approval only after a deterministic mandate check, transaction preflight and human approval. Local Gemma 4 reasoning stays advisory.
 <br/><br/>
-`Gradio` `LLM` `Vision` `Privacy`
+`KeeperHub` `Gemma 4` `ERC-20` `MCP`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🔢 [pixel-digit-recognizer](https://github.com/himanshu748/pixel-digit-recognizer)
-Browser-only MNIST recognizer — Pyodide runs a pure-NumPy neural net, zero backend, zero API calls.
+### 🖼️ [framekind](https://github.com/himanshu748/framekind)
+Private alt-text drafts that never leave the browser. YOLOS Tiny runs on-device with grounded detection overlays, shipped with a rerunnable Arm64 sweep showing the backend, not quantization, was the real lever.
 <br/><br/>
-`Pyodide` `NumPy` `ML` `No-API`
+`WebGPU` `Transformers.js` `Arm64` `A11y`
 
 </td>
 <td width="50%" valign="top">
 
-### 🗂️ [FormOS](https://github.com/himanshu748/FormOS)
-Retro-OS full-stack form builder — Next.js, tRPC, Drizzle, Postgres, public forms, QR sharing, analytics, generated Scalar docs.
+### 📡 [otel-swarm](https://github.com/himanshu748/otel-swarm)
+OpenTelemetry instrumentation for multi-agent LLM systems, with importable SigNoz dashboards and alerts so agent runs are traceable like any other service.
 <br/><br/>
-`Next.js` `tRPC` `Drizzle` `Postgres`
+`OpenTelemetry` `SigNoz` `Agents` `Tracing`
 
 </td>
 </tr>
@@ -143,17 +144,35 @@ Retro-OS full-stack form builder — Next.js, tRPC, Drizzle, Postgres, public fo
 <td width="50%" valign="top">
 
 ### 💻 [omnidev](https://github.com/himanshu748/omnidev)
-Local-first AI developer platform — configurable APIs, Gemini code generation, browser-tested frontend, FastAPI services.
+Native macOS AI dev cockpit. A local Gemma 4 model reads your files and screenshots, answers with citations, edits code and runs your tests. Fully offline, no API keys.
 <br/><br/>
-`AI` `Dev Tools` `FastAPI` `Gemini`
+`macOS` `Gemma 4` `RAG` `Offline`
 
 </td>
 <td width="50%" valign="top">
 
-### 🛡️ [sentinel-nosana-agent](https://github.com/himanshu748/sentinel-nosana-agent)
-Crypto research agent on ElizaOS + Nosana — market, DeFi, RSS, Solana, provider validation, 70-test coverage.
+### 🛡️ [railguard](https://github.com/himanshu748/railguard)
+A policy and human-approval layer between an AI agent and the Razorpay API. Every write is executed, parked for review or denied by a named rule, with a hash-chained audit log.
 <br/><br/>
-`ElizaOS` `Nosana` `Solana` `DeFi`
+`Razorpay` `Policy` `Audit Log` `Python`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🐝 [devswarm](https://github.com/himanshu748/devswarm)
+Multi-agent app generator running on open models, wired so it watches itself. Every agent is traced into SigNoz, which makes a swarm run as debuggable as any ordinary service.
+<br/><br/>
+`Multi-Agent` `SigNoz` `Open Models` `Tracing`
+
+</td>
+<td width="50%" valign="top">
+
+### 🧠 [ContextFirewall](https://github.com/himanshu748/ContextFirewall)
+A trust firewall for AI coding-agent memory, built on Cognee. Audits every remembered fact for staleness, contradiction, secrets and evidence before it reaches your agent. MCP-native.
+<br/><br/>
+`Cognee` `MCP` `Memory` `Guardrails`
 
 </td>
 </tr>
@@ -164,67 +183,69 @@ Crypto research agent on ElizaOS + Nosana — market, DeFi, RSS, Solana, provide
 ## `▚ ARCHITECTURE_DEEP_DIVE`
 
 <details>
-<summary><strong>▸ RepoRank: funding-readiness agent</strong></summary>
+<summary><strong>▸ blastradius: schema-change impact analysis</strong></summary>
 
 <br />
 
 **Core modules**
-- FastAPI analysis endpoint with a Coral SQL orchestration layer
-- Cross-source signals from GitHub, PyPI/npm, Hacker News, and Open Collective
-- Hugging Face Qwen narrative generation for impact scoring and grant matching
-- Shareable dashboard output with score, pitch, radar chart, and matching programs
+- DataHub client walking column-level lineage hop by hop from the changed column
+- Severity classifier separating breaking, risky and unaffected downstream assets
+- Owner resolution for every impacted table, dashboard, job and ML asset
+- Assessment written back into DataHub so the finding lives with the data
 
 ```mermaid
 flowchart LR
-  USER["Repository URL"] --> API["FastAPI Analyze API"]
-  API --> CORAL["Coral SQL Query"]
-  CORAL --> SOURCES["GitHub + Packages + HN + Funding"]
-  SOURCES --> MODEL["Qwen Report Generator"]
-  MODEL --> CARD["Impact Card + Grant Matches"]
+  PR["Schema change in a PR"] --> SCAN["blastradius scan"]
+  SCAN --> LIN["DataHub column-level lineage"]
+  LIN --> DOWN["Downstream tables, dashboards, ML assets"]
+  DOWN --> SEV["Severity and owner resolution"]
+  SEV --> BACK["Verdict written back to DataHub"]
 ```
 
 </details>
 
 <details>
-<summary><strong>▸ Exam Panic Rescue: study triage workflow</strong></summary>
+<summary><strong>▸ Circuit: policy-gated allowance revocation</strong></summary>
 
 <br />
 
 **Core modules**
-- Gradio product flow for one stressed student, one exam, and one time box
-- Small-model routes with MiniCPM, Nemotron, and local llama.cpp support
-- Vision-capable syllabus/photo handling plus text-only fallback paths
-- Privacy-minded traces with anonymized real-user validation
+- Live allowance discovery from onchain Approval history, cross-checked across two RPCs
+- Deterministic mandate check with canonical payload hashing
+- Local Gemma 4 reasoning over loopback-only Ollama, advisory and unable to widen policy
+- KeeperHub REST and MCP execution adapters behind one safety contract
 
 ```mermaid
 flowchart LR
-  STUDENT["Panic Dump + Topics"] --> TRIAGE["Topic Triage"]
-  TRIAGE --> PLAN["Rescue Plan"]
-  PLAN --> DRILLS["Drill Deck"]
-  DRILLS --> PROOF["Proof Target"]
-  PROOF --> SHEET["Final Sheet + Receipt"]
+  APPR["ERC-20 Approval event"] --> DISC["Allowance discovery across 2 RPCs"]
+  DISC --> POLICY["Deterministic mandate check"]
+  POLICY --> LLM["Gemma 4, advisory only"]
+  LLM --> HUMAN["Human approval, expiring single-use"]
+  HUMAN --> KH["KeeperHub execution, REST or MCP"]
+  KH --> PROOF["Independently verified zero allowance"]
 ```
 
 </details>
 
 <details>
-<summary><strong>▸ FormOS: full-stack form platform</strong></summary>
+<summary><strong>▸ FrameKind: on-device alt text with a quality guardrail</strong></summary>
 
 <br />
 
 **Core modules**
-- Turborepo workspace with Next.js, tRPC, Drizzle, and PostgreSQL
-- Form editor, public form runner, QR sharing, and anonymous submissions
-- Analytics dashboard with response table and per-field breakdowns
-- Scalar docs generated from the live tRPC router
+- YOLOS Tiny running in-browser through Transformers.js, image never leaves memory
+- Grounded detection overlay turned into an editable spatial alt-text draft
+- Rerunnable device sweep comparing FP32 and UINT8 across WASM and WebGPU
+- Agreement guardrail scoring every configuration against the full-precision reference
 
 ```mermaid
 flowchart LR
-  BUILDER["Form Builder"] --> TRPC["tRPC Procedures"]
-  PUBLIC["Public Form"] --> TRPC
-  TRPC --> DB["Drizzle + PostgreSQL"]
-  DB --> ANALYTICS["Analytics Dashboard"]
-  TRPC --> DOCS["Generated Scalar Docs"]
+  IMG["Image stays in browser memory"] --> MODEL["YOLOS Tiny via Transformers.js"]
+  MODEL --> DET["Grounded detections"]
+  DET --> ALT["Editable spatial alt-text draft"]
+  MODEL --> SWEEP["FP32 vs UINT8 sweep"]
+  SWEEP --> GUARD["Agreement guardrail vs reference"]
+  GUARD --> PICK["Fastest config that still agrees"]
 ```
 
 </details>
@@ -235,12 +256,14 @@ flowchart LR
 
 | Track | Repositories |
 | --- | --- |
-| Best portfolio projects | [reporank](https://github.com/himanshu748/reporank), [exam-panic-rescue](https://github.com/himanshu748/exam-panic-rescue), [pixel-digit-recognizer](https://github.com/himanshu748/pixel-digit-recognizer), [FormOS](https://github.com/himanshu748/FormOS), [omnidev](https://github.com/himanshu748/omnidev), [sentinel-nosana-agent](https://github.com/himanshu748/sentinel-nosana-agent) |
-| Agent products | [omnidev](https://github.com/himanshu748/omnidev), [sentinel-nosana-agent](https://github.com/himanshu748/sentinel-nosana-agent), [prism-mistral-hackathon](https://github.com/himanshu748/prism-mistral-hackathon), [prreviewiq-code-review-agent](https://github.com/himanshu748/prreviewiq-code-review-agent), [jee-neet-ai-concept-explainer](https://github.com/himanshu748/jee-neet-ai-concept-explainer) |
-| Developer and automation tools | [python-automation-training-toolkit](https://github.com/himanshu748/python-automation-training-toolkit), [apivault-api-docs-generator](https://github.com/himanshu748/apivault-api-docs-generator), [pr-review-agent](https://github.com/himanshu748/pr-review-agent), [langchain-rag-tutorial-2026](https://github.com/himanshu748/langchain-rag-tutorial-2026), [webmcptutorial](https://github.com/himanshu748/webmcptutorial) |
-| Full-stack products | [FormOS](https://github.com/himanshu748/FormOS), [launchproof-ai](https://github.com/himanshu748/launchproof-ai), [opportunity-scout](https://github.com/himanshu748/opportunity-scout), [hireiq-recruiting-assistant](https://github.com/himanshu748/hireiq-recruiting-assistant), [documate-ai](https://github.com/himanshu748/documate-ai) |
-| Data and notebooks | [ipl-evolution-data-analysis](https://github.com/himanshu748/ipl-evolution-data-analysis), [deeplearning](https://github.com/himanshu748/deeplearning), [financeiq-notion-finance-tracker](https://github.com/himanshu748/financeiq-notion-finance-tracker), [autopm-notion-product-manager](https://github.com/himanshu748/autopm-notion-product-manager) |
-| Open-source contributions and forks | [OpenMetadata](https://github.com/himanshu748/OpenMetadata), [hive](https://github.com/himanshu748/hive), [coral](https://github.com/himanshu748/coral), [the-gauntlet-voice-agent](https://github.com/himanshu748/the-gauntlet-voice-agent) |
+| Best portfolio projects | [blastradius](https://github.com/himanshu748/blastradius), [circuit-allowance-sentinel](https://github.com/himanshu748/circuit-allowance-sentinel), [framekind](https://github.com/himanshu748/framekind), [otel-swarm](https://github.com/himanshu748/otel-swarm), [omnidev](https://github.com/himanshu748/omnidev), [railguard](https://github.com/himanshu748/railguard), [devswarm](https://github.com/himanshu748/devswarm), [ContextFirewall](https://github.com/himanshu748/ContextFirewall) |
+| Agent products | [dhurandhar](https://github.com/himanshu748/dhurandhar), [swarmshift](https://github.com/himanshu748/swarmshift), [agentbench](https://github.com/himanshu748/agentbench), [sentinel-nosana-agent](https://github.com/himanshu748/sentinel-nosana-agent), [prism-mistral-hackathon](https://github.com/himanshu748/prism-mistral-hackathon) |
+| Developer and automation tools | [omnidev](https://github.com/himanshu748/omnidev), [vulcan](https://github.com/himanshu748/vulcan), [pr-review-agent](https://github.com/himanshu748/pr-review-agent), [apivault-api-docs-generator](https://github.com/himanshu748/apivault-api-docs-generator), [python-automation-training-toolkit](https://github.com/himanshu748/python-automation-training-toolkit), [webmcptutorial](https://github.com/himanshu748/webmcptutorial) |
+| Observability | [otel-swarm](https://github.com/himanshu748/otel-swarm), [devswarm](https://github.com/himanshu748/devswarm), [signoz-agent-observability](https://github.com/himanshu748/signoz-agent-observability) |
+| Onchain and ZK | [circuit-allowance-sentinel](https://github.com/himanshu748/circuit-allowance-sentinel), [veilpledge](https://github.com/himanshu748/veilpledge), [commitpass-stellar-rsvp](https://github.com/himanshu748/commitpass-stellar-rsvp), [matchday-pulse](https://github.com/himanshu748/matchday-pulse) |
+| Full-stack products | [FormOS](https://github.com/himanshu748/FormOS), [reporank](https://github.com/himanshu748/reporank), [launchproof-ai](https://github.com/himanshu748/launchproof-ai), [opportunity-scout](https://github.com/himanshu748/opportunity-scout), [hireiq-recruiting-assistant](https://github.com/himanshu748/hireiq-recruiting-assistant), [documate-ai](https://github.com/himanshu748/documate-ai) |
+| Data and notebooks | [ipl-evolution-data-analysis](https://github.com/himanshu748/ipl-evolution-data-analysis), [deeplearning](https://github.com/himanshu748/deeplearning), [langchain-rag-tutorial-2026](https://github.com/himanshu748/langchain-rag-tutorial-2026), [financeiq-notion-finance-tracker](https://github.com/himanshu748/financeiq-notion-finance-tracker), [autopm-notion-product-manager](https://github.com/himanshu748/autopm-notion-product-manager) |
+| Open-source contributions and forks | [langchain](https://github.com/himanshu748/langchain), [smolagents](https://github.com/himanshu748/smolagents), [cognee](https://github.com/himanshu748/cognee), [OpenMetadata](https://github.com/himanshu748/OpenMetadata), [coral](https://github.com/himanshu748/coral), [hive](https://github.com/himanshu748/hive) |
 
 <img width="100%" src="https://raw.githubusercontent.com/himanshu748/himanshu748/main/assets/divider.svg" alt="divider"/>
 
