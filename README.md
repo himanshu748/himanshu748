@@ -6,6 +6,12 @@ I build AI agents, memory systems and developer tools, and write practical guide
 
 Open to technical writing and developer contracts: tutorials, API demos, documentation and agent-tool integrations.
 
+## Support my work
+
+If you find my open-source projects and practical guides useful, you can [sponsor me on GitHub](https://github.com/sponsors/himanshu748) to support more of this work.
+
+Thank you to [Cap](https://github.com/CapSoftware), my first GitHub sponsor, for supporting my work.
+
 ## Selected projects
 
 | Project | What it does | Explore |
