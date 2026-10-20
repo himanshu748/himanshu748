@@ -12,6 +12,10 @@ If you find my open-source projects and practical guides useful, you can [sponso
 
 Thank you to [Cap](https://github.com/CapSoftware), my first GitHub sponsor, for supporting my work.
 
+## Open Source Contributions
+
+[![Contributor](https://img.shields.io/badge/5%20PRs%20MERGED-KESTRA-1F232C?style=for-the-badge&logo=github&logoColor=200062&labelColor=CDC5FF)](https://github.com/search?q=org:kestra-io+author:himanshu748+is:pr+is:merged&type=pullrequests)
+
 ## Selected projects
 
 | Project | What it does | Explore |
