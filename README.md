@@ -46,6 +46,8 @@ Open to **AI agent engineering, developer relations, and technical writing contr
 
 ## Open source and recognition
 
+[![Contributor](https://img.shields.io/badge/10%20PRs%20MERGED-KESTRA-1F232C?style=for-the-badge&logo=github&logoColor=200062&labelColor=CDC5FF)](https://github.com/search?q=org:kestra-io+author:himanshu748+is:pr+is:merged&type=pullrequests)
+
 - [Merged contributions to Kestra](https://github.com/search?q=org%3Akestra-io+author%3Ahimanshu748+is%3Apr+is%3Amerged&type=pullrequests).
 - [Flatpack](https://github.com/himanshu748/flatpack), a narrated-video-to-instructions prototype, placed **2nd in the Agent Builder track** at the [Livepeer Agent Hackathon 2026](https://atumera.com/hackathon).
 - [AMD DevMaster 2026 Excellent Award](https://www.amd.com/en/developer/resources/technical-articles/2026/lessons-from-the-amd-devmaster-hackathon.html), listed under team **himanshu748**.
